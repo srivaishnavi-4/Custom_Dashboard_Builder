@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Quicksand:wght@500;600;700&display=swap');
+
+* {
+  font-family: 'Open Sans';
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+
+.page-title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 26px;
+  color: #1f2937;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
