@@ -240,7 +240,7 @@ export const get_dashboard_metrics = async (req, res) => {
 
       order.find(dateMatch)
         .sort({ createdAt: -1 })
-        .limit(10)
+      
         .lean(),
 
 

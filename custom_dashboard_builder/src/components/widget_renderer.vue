@@ -493,10 +493,7 @@ const paginated_table_data = computed(() => {
 
   const end = start + page_size.value
 
-  return filtered_table_data.value.slice(
-    start,
-    end
-  )
+  return filtered_table_data.value
 
 })
 
